@@ -42,7 +42,7 @@ public class EmailUtility {
 			}
 		};
 
-		Session session = Session.getDefaultInstance(properties, auth);
+		Session session = Session.getDefaultInstance(propertiesMail, auth);
 
 		Message msg = new MimeMessage(session);
 
